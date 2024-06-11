@@ -1,12 +1,20 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
+  
 function WelcomePage() {
+    const navigate = useNavigate();
+
+    const handleNavigate = () => {
+        navigate('/about')
+    };
+
     return (
         <>
             <div className="bg-black h-screen flex flex-col justify-center items-center">
                 <div className="grid justify-items-center">
                     <img
-                        className="object-center mt-10 custom-rounded shadow-lg shadow-orange-800/50 "
+                        className="object-center w-[1100px] h-[800px] custom-rounded shadow-lg shadow-orange-800/50"
                         src="https://csunshinetoday.csun.edu/wp-content/uploads/Students-Study-Mars-Soil-for-Signs-of-Ancient-Life-in-ARCSNASA-Project.jpg"
                         alt="mars landscape"
                     />
@@ -21,7 +29,8 @@ function WelcomePage() {
                     <div className="bg-black flex justify-center items-center mt-5">
                         <div className="relative inline-flex group">
                             <div className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-orange-400 via-amber-700 to-orange-400 rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
-                            <button className="font-Nasaliza relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-gray-900 rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
+                            <button onClick={handleNavigate} 
+                            className="font-Nasaliza relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-black rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
                                 Start Exploration
                             </button>
                         </div>

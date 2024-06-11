@@ -18,3 +18,16 @@
   .costum-left-rounded {
     border-radius: 0% 100% 0% 100% / 100% 100% 0% 0%  ;
   }
+  ::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #9e390a;
+}
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+}
