@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/planet-wesite/static/css/main.596e1d83.css",
-    "main.js": "/planet-wesite/static/js/main.5ddc0bc1.js",
+    "main.css": "/planet-wesite/static/css/main.f479cfbf.css",
+    "main.js": "/planet-wesite/static/js/main.dfbaa7aa.js",
     "static/js/453.16ccfffc.chunk.js": "/planet-wesite/static/js/453.16ccfffc.chunk.js",
     "static/media/logo1.png": "/planet-wesite/static/media/logo1.68c4bb7964ef1f26259f.png",
     "static/media/Nasaliza.ttf": "/planet-wesite/static/media/Nasaliza.b04d5687bef6636f7495.ttf",
     "index.html": "/planet-wesite/index.html",
-    "main.596e1d83.css.map": "/planet-wesite/static/css/main.596e1d83.css.map",
-    "main.5ddc0bc1.js.map": "/planet-wesite/static/js/main.5ddc0bc1.js.map",
+    "main.f479cfbf.css.map": "/planet-wesite/static/css/main.f479cfbf.css.map",
+    "main.dfbaa7aa.js.map": "/planet-wesite/static/js/main.dfbaa7aa.js.map",
     "453.16ccfffc.chunk.js.map": "/planet-wesite/static/js/453.16ccfffc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.596e1d83.css",
-    "static/js/main.5ddc0bc1.js"
+    "static/css/main.f479cfbf.css",
+    "static/js/main.dfbaa7aa.js"
   ]
 }
